@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced search</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="d-block-flex">
+      <p class="m-2 text-right"><a href="index.html">Return to search</a></p>
+      <h5 class="m-5 text-left text-danger">Advanced search</h5>
+      <div class="border border-secondary border-left-0 border-bottom-0 border-right-0">
+        <p></p>
+        <div class="p-4">
+          <div class="m-2 row">
+            <h6 class="col-sm-2">Find pages with...</h6>
+            <h6 class="col-sm-6"></h6>
+            <h6 class="col-sm-4">To do this in the search box.</h6>
+          </div>
+          <form action="https://www.google.com/search">
+            <div class="m-2 form-group row">
+              <label class="col-sm-2 col-form-label advance" for="all">all these words:</label>
+              <div class="col-sm-6">
+                <input class="w-100" type="text" id="all" name="as_q">
+              </div>
+              <label class="col-sm-4 col-form-label advance" for="all">Type the important words: <i>tri-colour rat terrier</i></label>
+            </div>
+            <div class="m-2 form-group row">
+              <label class="col-sm-2 col-form-label advance" for="exact">this exact word or phrase:</label>
+              <div class="col-sm-6">
+                <input class="w-100" type="text" id="exact" name="as_epq">
+              </div>
+              <label class="col-sm-4 col-form-label advance" for="exact">Put exact words in quotes: <i>"rat terrier"</i></label>
+            </div>
+            <div class="m-2 form-group row">
+              <label class="col-sm-2 col-form-label advance" for="any">any of these words:</label>
+              <div class="col-sm-6">
+                <input class="w-100" type="text" id="any" name="as_oq">
+              </div>
+              <label class="col-sm-4 col-form-label advance" for="any">Type OR between all the words you want: <i>miniature OR standard</i></label>
+            </div>
+            <div class="m-2 form-group row">
+              <label class="col-sm-2 col-form-label advance" for="none">none of these words:</label>
+              <div class="col-sm-6">
+                <input class="w-100" type="text" id="none" name="as_eq">
+              </div>
+              <label class="col-sm-4 col-form-label advance" for="none">Put a minus sign just before words that you don't want: <i>-rodent, -"Jack Russell"</i><lable>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-6 offset-sm-6">
+                <input class="btn btn-primary" type="submit" value="Advanced search">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
